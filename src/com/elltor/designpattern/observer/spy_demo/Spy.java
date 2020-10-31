@@ -3,7 +3,7 @@ package com.elltor.designpattern.observer.spy_demo;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Spy007 {
+public class Spy {
     private List<Country> countryList = new ArrayList<>();
     private String intelligence;
 
@@ -16,11 +16,17 @@ public class Spy007 {
         countryList.add(country);
     }
 
-
+    /**
+     * 离开国家, 对country不发送变更提醒
+     * @param country
+     */
     public void leave(Country country) {
         countryList.remove(country);
     }
 
+    /**
+     * 变更提醒
+     */
     public void notifyCountry() {
         for (Country c : countryList){
             c.update();

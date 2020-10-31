@@ -1,4 +1,4 @@
-package com.elltor.designpattern.observer;
+package com.elltor.designpattern.observer.general_demo;
 
 public class ConcreteObserver extends Observer {
     private String observerName;

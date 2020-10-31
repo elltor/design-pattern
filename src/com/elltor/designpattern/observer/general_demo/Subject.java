@@ -1,4 +1,4 @@
-package com.elltor.designpattern.observer;
+package com.elltor.designpattern.observer.general_demo;
 
 import java.util.ArrayList;
 import java.util.List;

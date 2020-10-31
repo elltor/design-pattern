@@ -2,7 +2,7 @@ package com.elltor.designpattern.observer.spy_demo;
 
 public class CountryB extends Country{
 
-    public CountryB(String countryName, Spy007 spy) {
+    public CountryB(String countryName, Spy spy) {
         super(countryName, spy);
     }
 

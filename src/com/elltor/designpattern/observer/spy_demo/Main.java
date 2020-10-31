@@ -3,7 +3,7 @@ package com.elltor.designpattern.observer.spy_demo;
 public class Main {
 
     public static void main(String[] args) {
-        Spy007 spy = new Spy007();
+        Spy spy = new Spy();
 
         //两个国家雇佣了007, 这两个国家是观察者
         CountryA countryA = new CountryA("乙国", spy);
@@ -18,6 +18,5 @@ public class Main {
 
         //向两个国家汇报(通知观察者)
         spy.notifyCountry();
-
     }
 }

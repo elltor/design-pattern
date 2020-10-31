@@ -1,8 +1,11 @@
-package com.elltor.designpattern.observer;
+package com.elltor.designpattern.memento.general_demo;
 
-//具体的通知类
-public class ConcreteSubject  extends Subject{
+public class Memento {
     private String state;
+
+    public Memento(String state) {
+        this.state = state;
+    }
 
     public String getState() {
         return state;
